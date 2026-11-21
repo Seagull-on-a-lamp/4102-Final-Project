@@ -1,0 +1,18 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Datasets
+datasets/
+!datasets/README.md
+
+# Model weights
+weights/
+!weights/README.md
+
+# Third-party EDSR repository
+third_party/EDSR-PyTorch/
+
+# Reconstructed images
+results/edsr/reconstructed/*.png
