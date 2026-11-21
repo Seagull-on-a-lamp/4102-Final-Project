@@ -3,6 +3,8 @@
 This project implements Image super resolution using a pretrained EDSR.
 The model reconstructs higher-resolution images from low-resolution inputs using a scale factor of 2
 
+It also calculates the PSNR for each image and saves it in a .csv file.
+
 ## Project Structure
 ```
 super-resolution/
